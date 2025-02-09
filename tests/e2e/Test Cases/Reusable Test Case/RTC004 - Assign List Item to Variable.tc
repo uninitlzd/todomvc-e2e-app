@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC004 - Assign List Item to Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b23b0c2-66af-4c34-8ac2-b19710cd87cb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>739403d3-2bf0-4be8-8d88-1db7ddbe1b2c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f80a1719-9a6a-4669-b74f-daf012cea08c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Page_TodoMVC Vue/todo_item--active')</defaultValue>
+      <description></description>
+      <id>739403d3-2bf0-4be8-8d88-1db7ddbe1b2c</id>
+      <masked>false</masked>
+      <name>listObject</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>f80a1719-9a6a-4669-b74f-daf012cea08c</id>
+      <masked>false</masked>
+      <name>loopCount</name>
+   </variable>
+</TestCaseEntity>

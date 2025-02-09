@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC003 - Input TODOs Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43cbbe4c-65eb-4206-bb76-337bd714dca6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20f028f4-4f4a-4247-b2cf-b8157f654a1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>20f028f4-4f4a-4247-b2cf-b8157f654a1d</id>
+      <masked>false</masked>
+      <name>loopCount</name>
+   </variable>
+</TestCaseEntity>
