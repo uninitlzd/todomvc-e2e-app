@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC006 - Add Multiple Todo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>691ca4c7-f364-4570-a3dd-90443fbb02cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6856d4f-9055-4739-acc3-5c34cb7650fa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['PHP', 'Javascript', 'CPP', 'CSS', 'Java']</defaultValue>
+      <description></description>
+      <id>f6856d4f-9055-4739-acc3-5c34cb7650fa</id>
+      <masked>false</masked>
+      <name>todos</name>
+   </variable>
+</TestCaseEntity>

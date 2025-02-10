@@ -21,7 +21,5 @@ import org.openqa.selenium.WebElement as WebElement
 
 List<WebElement> list = WebUiCommonHelper.findWebElements(listObject, 30)
 
-//println((list[0]).findElement(findTestObject('')))
-
 WebUI.verifyEqual(list.size(), loopCount)
 

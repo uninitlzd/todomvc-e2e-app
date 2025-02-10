@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "C6A87D9DE2431D6D4DE5A13E9A0740F3",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.Todo",
+      "keywordMethods": [
+        {
+          "name": "getText",
+          "parameters": [
+            {
+              "name": "index",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC003 - Add Multiple Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb5ca0a3-7c91-4ab5-9c1c-6a709d789d9a</testCaseGuid>
+</TestCaseEntity>

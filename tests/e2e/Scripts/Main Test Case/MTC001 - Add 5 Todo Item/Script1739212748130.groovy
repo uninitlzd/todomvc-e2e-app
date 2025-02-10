@@ -21,6 +21,6 @@ WebUI.callTestCase(findTestCase('Reusable Test Case/RTC001 - Open App'), [:], Fa
 
 WebUI.callTestCase(findTestCase('Reusable Test Case/RTC003 - Input TODOs Item'), [('loopCount') : 5], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Reusable Test Case/RTC004 - Assign List Item to Variable'), [('listObject') : findTestObject('Page_TodoMVC Vue/todo_item--active'), ('loopCount'): loopCount], 
+WebUI.callTestCase(findTestCase('Reusable Test Case/RTC004 - Assign List Item to Variable'), [('listObject') : findTestObject('Page_TodoMVC/todo_item--active'), ('loopCount'): loopCount], 
     FailureHandling.STOP_ON_FAILURE)
 

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-for (def index : (1..loopCount)) {
-    WebUI.setText(findTestObject('Page_TodoMVC/input_todos_new-todo'), 'TODO ' + index)
+WebUI.callTestCase(findTestCase('Reusable Test Case/RTC005 - Add Todo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.sendKeys(findTestObject('Page_TodoMVC/input_todos_new-todo'), Keys.chord(Keys.ENTER))
-}
+WebUI.callTestCase(findTestCase('Reusable Test Case/RTC007 - Edit Certain Index'), [('index') : 0], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

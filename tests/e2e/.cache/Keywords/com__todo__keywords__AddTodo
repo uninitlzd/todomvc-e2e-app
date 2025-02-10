@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "9BFA7D222F2A80F50AA048D01DEDBD3A",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.AddTodo",
+      "keywordMethods": [
+        {
+          "name": "execute",
+          "parameters": [
+            {
+              "name": "todoText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
