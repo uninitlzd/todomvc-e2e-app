@@ -16,4 +16,4 @@ jobs:
       with:
           version: '9.6.0'
           projectPath: '${{ env.KATALON_PROJECT_PATH }}'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey= ${{ secrets.KATALON_API_KEY }}'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey=2b51ffb6-954a-43f7-9ac4-cb09256720b8'
