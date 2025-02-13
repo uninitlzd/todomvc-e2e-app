@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "28BB818105C3BFE5B4802DB5FA22A871",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.ClearCompleted",
+      "keywordMethods": [
+        {
+          "name": "clearCompleted",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

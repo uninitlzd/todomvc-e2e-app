@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "554C10AF243983868270BFAF3D4ACDF7",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.SetFilter",
+      "keywordMethods": [
+        {
+          "name": "by",
+          "parameters": [
+            {
+              "name": "filter",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

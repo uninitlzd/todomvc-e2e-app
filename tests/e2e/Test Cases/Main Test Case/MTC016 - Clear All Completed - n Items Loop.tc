@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>MTC003 - Add Multiple Item</name>
-   <tag>GenAI</tag>
+   <name>MTC016 - Clear All Completed - n Items Loop</name>
+   <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bb5ca0a3-7c91-4ab5-9c1c-6a709d789d9a</testCaseGuid>
+   <testCaseGuid>e6bb2e93-7b53-48d4-970d-d1e2c218f1ba</testCaseGuid>
 </TestCaseEntity>

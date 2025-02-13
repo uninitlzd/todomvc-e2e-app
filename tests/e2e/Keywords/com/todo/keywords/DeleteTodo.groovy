@@ -29,16 +29,5 @@ public class DeleteTodo {
 	def static execute(int index = 0) {
 		WebUI.mouseOver(findTestObject('Page_TodoMVC/li_todo_item_parameterized', [('sequence') : index]))
 		WebUI.click(findTestObject('Page_TodoMVC/button_destroy', [('sequence') : index]))
-
-		//
-		//		WebDriver webDriver = DriverFactory.getWebDriver()
-		//
-		//		Actions actions = new Actions(webDriver)
-		//		actions.moveToElement(todoItems[index])
-		//				.perform()
-		//
-		//
-		//		WebUI.mouseOver(todoItems[index])
-		//		WebUI.click(findTestObject('Object Repository/Page_TodoMVC/todo_item--btn_destroy'))
 	}
 }

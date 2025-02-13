@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC016 - Clear All Completed - n Items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99fefdf4-74ad-4fbb-852b-19a2521a738a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f00dcea-0442-4e2c-ba6a-50f46fc17fda</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>0f00dcea-0442-4e2c-ba6a-50f46fc17fda</id>
+      <masked>false</masked>
+      <name>loopEnd</name>
+   </variable>
+</TestCaseEntity>

@@ -15,10 +15,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Keys
+
+import com.todo.keywords.AddTodo
+import com.todo.keywords.InitializeTodoApp
 import com.todo.keywords.TodoKeywords as Todo
+import com.todo.keywords.VerifyTodo
 
-WebUI.callTestCase(findTestCase('Reusable Test Case/RTC006 - Add Multiple Todo'), [('todos') : ['PHP', 'Javascript', 'CPP', 'CSS', 'Java']], 
-    FailureHandling.STOP_ON_FAILURE)
+InitializeTodoApp.execute()
+def startTime = System.currentTimeMillis()
 
-WebUI.closeBrowser()
+10.times { 
+	AddTodo.execute("Buy groceries")
+}
+
+VerifyTodo.countEqual(10)
+
+def endTime = System.currentTimeMillis()
+def loadTime = endTime - startTime
+
+// Verify load time is acceptable
+assert loadTime < 5000 // 5 seconds threshold
+
+

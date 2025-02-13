@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/following::button[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/footer[@class=&quot;footer&quot;]/button[@class=&quot;clear-completed&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b6a99216-5036-4903-b128-a84e8d131985</webElementGuid>
+      <webElementGuid>200d7788-4879-4c11-82c1-623b2a714e28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,23 +41,23 @@
       <name>class</name>
       <type>Main</type>
       <value>clear-completed</value>
-      <webElementGuid>1f9915aa-6c3f-433d-b5e6-a9c4946d60e9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Clear Completed</value>
-      <webElementGuid>57f947f6-d156-46ae-9db2-ed305fa1b768</webElementGuid>
+      <webElementGuid>ba6c46d8-ec2d-4739-81af-466030f15267</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear Completed</value>
+      <webElementGuid>4d37ecb5-95e1-4c8a-a6ad-e61206b8807e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/footer[@class=&quot;footer&quot;]/button[@class=&quot;clear-completed&quot;]</value>
-      <webElementGuid>70f25404-d4e5-43d8-9272-0338efdb8c56</webElementGuid>
+      <webElementGuid>b77ef002-3c08-4e01-b820-159d953ede11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/following::button[1]</value>
-      <webElementGuid>ee119741-79b2-4bd1-b0d2-4e40913a51c2</webElementGuid>
+      <webElementGuid>f5a65d14-7433-4e28-a138-49cd10789d0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::button[1]</value>
-      <webElementGuid>e23637ec-321e-4a68-b2c2-66eccbf5a0d5</webElementGuid>
+      <webElementGuid>29eac290-382b-46b7-894d-0c2c20b2f9fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TodoMVC'])[1]/preceding::button[1]</value>
-      <webElementGuid>8adf3ba8-f76a-4eca-aab8-f54645001eb8</webElementGuid>
+      <webElementGuid>ad6a0497-88ee-4c9f-bc91-c61e225d8734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Clear Completed']/parent::*</value>
-      <webElementGuid>b2c265d9-841c-41f6-92bb-f72fa06c1269</webElementGuid>
+      <webElementGuid>c424d693-e188-4214-82e1-34118e32b1d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/button</value>
-      <webElementGuid>e41f61e2-7d20-4cd3-b40a-60387877dce2</webElementGuid>
+      <webElementGuid>530f2fb6-64ff-489c-b2f5-72e2f3111661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Clear Completed' or . = 'Clear Completed')]</value>
-      <webElementGuid>ac992c03-8bb9-4c1f-b37e-ff25f97987ec</webElementGuid>
+      <webElementGuid>847a69ff-e312-4dcc-92db-735c2ad634ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

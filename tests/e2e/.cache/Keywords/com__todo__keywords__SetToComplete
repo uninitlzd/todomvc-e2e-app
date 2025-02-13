@@ -1,0 +1,33 @@
+{
+  "keywordFileContentHash": "1FB3C98BDCDF9C1360E3B78B46932EF0",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.SetToComplete",
+      "keywordMethods": [
+        {
+          "name": "index",
+          "parameters": [
+            {
+              "name": "index",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "index",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

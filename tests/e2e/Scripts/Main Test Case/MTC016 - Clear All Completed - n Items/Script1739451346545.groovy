@@ -17,8 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.todo.keywords.TodoKeywords as Todo
+import com.todo.keywords.VerifyTodo as VerifyTodo
 
-WebUI.callTestCase(findTestCase('Reusable Test Case/RTC006 - Add Multiple Todo'), [('todos') : ['PHP', 'Javascript', 'CPP', 'CSS', 'Java']], 
-    FailureHandling.STOP_ON_FAILURE)
+def todos = ['PHP', 'Javascript', 'CPP'
+            , 'CSS', 'Java']
+
+WebUI.callTestCase(findTestCase('Reusable Test Case/RTC006 - Add Multiple Todo'), [('todos') : todos], FailureHandling.STOP_ON_FAILURE)
+
+for (def index : (1..loopEnd)) {
+    WebUI.callTestCase(findTestCase('Reusable Test Case/RTC011 - Set an Item to done'), [('sequence') : index], FailureHandling.STOP_ON_FAILURE)
+}
+
+WebUI.callTestCase(findTestCase('Reusable Test Case/RTC012 - Check Items Left Text Count'), [('expectedCount') : todos.size() - loopEnd], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_TodoMVC/filter--btn_clear-completed'))
+
+VerifyTodo.countEqual(todos.size() - loopEnd)
 
 WebUI.closeBrowser()
+
