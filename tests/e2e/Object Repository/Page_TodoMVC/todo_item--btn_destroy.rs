@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button</value>
+         <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li/div[@class=&quot;view&quot;]/button[@class=&quot;destroy&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li['${sequence}']/div[@class=&quot;view&quot;]/button[@class=&quot;destroy&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5bb43d89-4f87-4f59-bbee-de8c82eacf56</webElementGuid>
+      <webElementGuid>be02a9cb-ccce-40fc-9911-56a411788e7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,22 +41,22 @@
       <name>class</name>
       <type>Main</type>
       <value>destroy</value>
-      <webElementGuid>0cd4b39c-c4a3-4a7f-b0dd-4daea72f9c6a</webElementGuid>
+      <webElementGuid>edebae48-7970-4d7c-8a95-598deb4afd04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li[@class=&quot;completed&quot;]/div[@class=&quot;view&quot;]/button[@class=&quot;destroy&quot;]</value>
-      <webElementGuid>d689f113-70dc-4ce4-a80d-288bd3d63cbb</webElementGuid>
+      <value>//html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li['${sequence}']/div[@class=&quot;view&quot;]/button[@class=&quot;destroy&quot;]</value>
+      <webElementGuid>aa8c59b6-b505-415a-baa2-b2696bfedff0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>c20a65ba-5ec2-47e8-a249-2bdcac188b92</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li['${index}']/div[@class=&quot;view&quot;]/button[@class=&quot;destroy&quot;]</value>
+      <webElementGuid>655c96a1-66a8-4f69-8566-2b9a7ccfc2d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC012 - Check Items Left Text Count</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b575a88f-b907-419c-999e-2b88347f43b7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89291467-659a-4a7a-8c4f-42ed825c01d9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>89291467-659a-4a7a-8c4f-42ed825c01d9</id>
+      <masked>false</masked>
+      <name>expectedCount</name>
+   </variable>
+</TestCaseEntity>

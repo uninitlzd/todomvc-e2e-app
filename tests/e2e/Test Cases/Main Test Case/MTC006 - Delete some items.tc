@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC006 - Delete some items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f71ac399-29ee-4bf6-b0da-a7e0fb9c5258</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TodoMVCTestSuite,TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:03,13-02-2025 14:00:47,43.624s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Case/RTC005 - Add Todo,TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:03,13-02-2025 14:00:46,42.587s,PASSED
+todo = new com.todo.keywords.TodoKeywords(),TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:04,13-02-2025 14:00:04,0.030s,PASSED
+InitializeTodoApp.execute(),TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:04,13-02-2025 14:00:36,32.707s,PASSED
+"AddTodo.execute(""Buy groceries"")",TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:36,13-02-2025 14:00:42,6.232s,PASSED
+VerifyTodo.countEqual(1),TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:42,13-02-2025 14:00:44,1.683s,PASSED
+"VerifyTodo.textEqual(0, ""Buy groceries"")",TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:44,13-02-2025 14:00:46,1.845s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Case/RTC002 - Close App,TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:46,13-02-2025 14:00:47,0.966s,PASSED
+closeBrowser(STOP_ON_FAILURE),TestCloud - macOS - Chrome 133.0.6943.54,,,13-02-2025 14:00:46,13-02-2025 14:00:47,0.923s,PASSED

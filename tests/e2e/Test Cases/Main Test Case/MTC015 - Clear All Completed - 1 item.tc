@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC015 - Clear All Completed - 1 item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7122e1e1-6a53-4e6c-9e17-0d8dbc1e27fa</testCaseGuid>
+</TestCaseEntity>

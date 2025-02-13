@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC011 - Check Filter - Active</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b0f1019-c8de-4b80-9aa4-39db5a004aff</testCaseGuid>
+</TestCaseEntity>

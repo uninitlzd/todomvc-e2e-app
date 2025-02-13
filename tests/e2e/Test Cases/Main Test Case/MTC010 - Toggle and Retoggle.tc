@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC010 - Toggle and Retoggle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b66b6ff3-6eb4-4f7e-b9e0-40eac67d5ca8</testCaseGuid>
+</TestCaseEntity>

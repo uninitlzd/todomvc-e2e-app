@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_todo_item_parameterized</name>
+   <tag></tag>
+   <elementGuidId>6993efec-36cd-4631-9c7a-9bba401c5ec3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.view > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@class=&quot;todo-list&quot;]/li[${index}]/div[@class=&quot;view&quot;]/label[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li['${sequence}']/div[@class=&quot;view&quot;]/label[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;PHP&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e3990514-b135-4706-bb7a-7be2a971d1a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PHP</value>
+      <webElementGuid>e535351c-5f59-45a5-a359-8407d35ed3d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li['${sequence}']/div[@class=&quot;view&quot;]/label[1]</value>
+      <webElementGuid>9a13099c-5b00-489b-a560-8b0bbf6cddf6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

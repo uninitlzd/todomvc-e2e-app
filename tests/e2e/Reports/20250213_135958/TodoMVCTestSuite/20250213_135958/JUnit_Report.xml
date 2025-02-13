@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TodoMVCTestSuite" time="43.624" tests="2" failures="0" errors="0">
+   <testsuite name="TodoMVCTestSuite" tests="2" failures="0" errors="0" time="43.624" skipped="0" timestamp="13-02-2025T14:00:03" hostname="edo - localhost" id="Test Suites/TodoMVCTestSuite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250213_135958/TodoMVCTestSuite/20250213_135958"/>
+         <property name="logFiles" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250213_135958/TodoMVCTestSuite/20250213_135958/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edo - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="sessionId" value="4b95474efb140c24ab1b48333aea49ed"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;133.0.6943.54&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;583b2b22-5f9a-4dc8-b5c8-e2ecdd8cef36&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;133.0.6943.54 (8afbb35a1bb6648f0b2efc81825743a512fa9c48-refs/branch-heads/6943@{#1390})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;/var/folders/jn/d55cz0wn0zb0y2tp1yswzfpm0000gp/T/.org.chromium.Chromium.VjcKaM&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;583b2b22-5f9a-4dc8-b5c8-e2ecdd8cef36&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;8653a965-c3da-44ab-baff-9af6f78c1bfe&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;583b2b22-5f9a-4dc8-b5c8-e2ecdd8cef36&quot;&#xa;  },&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;8653a965-c3da-44ab-baff-9af6f78c1bfe&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;583b2b22-5f9a-4dc8-b5c8-e2ecdd8cef36&quot;,&#xa;    &quot;group&quot;: &quot;f5eb52e3-ebdd-4e65-8635-3fa1aa6296a7&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;fa790088-214d-4395-b4d1-27664527a61c&quot;,&#xa;      &quot;organizationId&quot;: &quot;1914502&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.1.0&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;b6387aab-b1f7-448d-9a55-938fe056ae21&quot;,&#xa;    &quot;userId&quot;: 1649109,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;8653a965-c3da-44ab-baff-9af6f78c1bfe&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;583b2b22-5f9a-4dc8-b5c8-e2ecdd8cef36&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 133.0.6943.54"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+      </properties>
+      <testcase name="Test Cases/Reusable Test Case/RTC005 - Add Todo" time="42.587" classname="Test Cases/Reusable Test Case/RTC005 - Add Todo" status="PASSED">
+         <system-out><![CDATA[13-02-2025T14:00:03 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC005 - Add Todo: Test Cases/Reusable Test Case/RTC005 - Add Todo
+
+13-02-2025T14:00:04 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+13-02-2025T14:00:04 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - User set preference: ['platformName', 'macos']
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1914502, accountId=1462935, channel=kse;v=10.1.0}, tunnelId=, executionMode=queue, usingTunnel=true}']
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+13-02-2025T14:00:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2025T14:00:33 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+13-02-2025T14:00:33 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+13-02-2025T14:00:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2025T14:00:36 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+13-02-2025T14:00:36 - [TEST_STEP][PASSED] - AddTodo.execute("Buy groceries"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+13-02-2025T14:00:41 - [MESSAGE][PASSED] - Text 'Buy groceries' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+13-02-2025T14:00:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+13-02-2025T14:00:42 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(1): Actual object '1' and expected object '1' are equal
+
+13-02-2025T14:00:44 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+13-02-2025T14:00:44 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+13-02-2025T14:00:44 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(0, "Buy groceries"): Actual object 'Buy groceries' and expected object 'Buy groceries' are equal
+
+13-02-2025T14:00:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2025T14:00:46 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+13-02-2025T14:00:46 - [MESSAGE][PASSED] - Actual object 'Buy groceries' and expected object 'Buy groceries' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reusable Test Case/RTC002 - Close App" time="0.966" classname="Test Cases/Reusable Test Case/RTC002 - Close App" status="PASSED">
+         <system-out><![CDATA[13-02-2025T14:00:46 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC002 - Close App: Test Cases/Reusable Test Case/RTC002 - Close App
+
+13-02-2025T14:00:46 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+13-02-2025T14:00:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2025T14:00:03 - [TEST_SUITE][PASSED] - TodoMVCTestSuite: Test Cases/Reusable Test Case/RTC002 - Close App]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

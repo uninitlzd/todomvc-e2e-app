@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC013 - Retoggle an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd627c40-5735-4618-9d1a-1bc414473597</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d4a5c1f-a3ae-4fc3-9659-c6091fa69106</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4d4a5c1f-a3ae-4fc3-9659-c6091fa69106</id>
+      <masked>false</masked>
+      <name>sequence</name>
+   </variable>
+</TestCaseEntity>

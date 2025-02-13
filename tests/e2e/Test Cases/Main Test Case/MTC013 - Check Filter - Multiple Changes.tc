@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC013 - Check Filter - Multiple Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aaea7780-3466-445a-a0ac-89f85598785e</testCaseGuid>
+</TestCaseEntity>

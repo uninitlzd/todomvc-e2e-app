@@ -6,12 +6,24 @@
    <elementGuidId>32a341fd-7a39-4cee-be8f-d2629971697b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>body > section > main > ul > li:nth-child(${index}) > div.view</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//ul[contains(@class, 'todo-list')]//li
-</value>
+         <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/main[@class=&quot;main&quot;]/ul[@class=&quot;todo-list&quot;]/li/div[@class=&quot;view&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1739212341978</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -20,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>1599f7c6-50b1-4996-8b21-a26f28126eef</webElementGuid>
+      <webElementGuid>ba6ad28f-231d-4e57-99c6-d7f5f855030d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,6 +40,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1739212341978</value>
-      <webElementGuid>30a98245-3abd-4563-97ef-23843c654135</webElementGuid>
+      <webElementGuid>2e270e23-88d0-4ca0-b53d-a81ba3cb7535</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

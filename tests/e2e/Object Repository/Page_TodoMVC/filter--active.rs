@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//a[contains(text(),'Active')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#/active' and (text() = 'Active' or . = 'Active')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b4633b2b-bbe8-498e-a3b4-537ff5a1be90</webElementGuid>
+      <webElementGuid>d2050da5-3ae9-4d80-8686-bc180fbd2bc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/active</value>
-      <webElementGuid>723a722b-13e2-4a7b-80f9-6bd901855b02</webElementGuid>
+      <webElementGuid>5908a5f0-4b95-4413-b04d-1630f12fd94d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Active</value>
-      <webElementGuid>535fa3ab-befb-4a8e-a010-340c895cea05</webElementGuid>
+      <webElementGuid>9681441f-c2c8-49dd-8480-d93758f4bc16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/footer[@class=&quot;footer&quot;]/ul[@class=&quot;filters&quot;]/li[2]/a[1]</value>
-      <webElementGuid>f99d522c-e9ea-490b-948c-24cf6da43c45</webElementGuid>
+      <webElementGuid>9f58d027-490f-4470-84ff-85d4f60b9778</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Active')]</value>
-      <webElementGuid>f2fee03b-447b-41ae-9899-a41497001faa</webElementGuid>
+      <webElementGuid>b5748174-eb25-49ff-a21f-cafbc23757ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/following::a[1]</value>
-      <webElementGuid>9955959e-c7a1-43cf-8e14-2d0b44e0d775</webElementGuid>
+      <webElementGuid>78c40a19-472e-4496-ac3f-789fde490ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/preceding::a[1]</value>
-      <webElementGuid>f1ce2113-9845-47e1-ba14-493eee8ec841</webElementGuid>
+      <webElementGuid>2b3891e2-6a2f-4006-aca7-e50a8d2e5c46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Completed'])[1]/preceding::a[2]</value>
-      <webElementGuid>a087ffc8-e87e-4162-a22d-c9f8efdf4046</webElementGuid>
+      <webElementGuid>bd190126-288f-4e9e-a56b-2ce5f307cc5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Active']/parent::*</value>
-      <webElementGuid>9d159252-da97-4c10-85b9-00ec8e43c654</webElementGuid>
+      <webElementGuid>8d703e17-eced-43a2-b46b-8972bfa8a3f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#/active')]</value>
-      <webElementGuid>a0a28278-5a7a-4bae-873a-6c1607be9db6</webElementGuid>
+      <webElementGuid>210c0dbb-8059-40bb-8b25-51179c19c749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>29480ab5-397f-477f-97fa-386efdb42f09</webElementGuid>
+      <webElementGuid>2df30e3a-9cbc-434f-98ba-6d7f558f79fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#/active' and (text() = 'Active' or . = 'Active')]</value>
-      <webElementGuid>4fb7d843-c38f-4823-8224-abc5cdd5db1f</webElementGuid>
+      <webElementGuid>5cbd0a03-8a8f-4923-8c78-6ccef99fd1c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

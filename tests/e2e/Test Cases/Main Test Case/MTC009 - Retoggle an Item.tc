@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC009 - Retoggle an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b55b4e6-6451-4afc-ad68-4724ab071aa5</testCaseGuid>
+</TestCaseEntity>

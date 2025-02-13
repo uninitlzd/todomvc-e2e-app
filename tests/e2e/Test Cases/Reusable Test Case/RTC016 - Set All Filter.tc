@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC016 - Set All Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52d10663-b5e3-4ef9-a32a-f3d7d4ceb7b9</testCaseGuid>
+</TestCaseEntity>

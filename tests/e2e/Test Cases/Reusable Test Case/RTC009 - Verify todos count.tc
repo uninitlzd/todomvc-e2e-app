@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC009 - Verify todos count</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f7914c2-4ee5-45a4-8d2d-65f6c41e46cd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a17ca78-b298-42fe-8a86-57d4d8154298</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>0a17ca78-b298-42fe-8a86-57d4d8154298</id>
+      <masked>false</masked>
+      <name>todosCount</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC008 - Set some item to Done</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6c84cc7-9124-4ecb-b5bc-3cb697444935</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TodoMVCTestSuite,Chrome 133.0.6943.99,,,13-02-2025 17:48:57,13-02-2025 17:49:13,15.855s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Case/RTC005 - Add Todo,Chrome 133.0.6943.99,,,13-02-2025 17:48:58,13-02-2025 17:49:13,15.317s,PASSED
+todo = new com.todo.keywords.TodoKeywords(),Chrome 133.0.6943.99,,,13-02-2025 17:48:58,13-02-2025 17:48:58,0.204s,PASSED
+InitializeTodoApp.execute(),Chrome 133.0.6943.99,,,13-02-2025 17:48:58,13-02-2025 17:49:10,11.466s,PASSED
+"AddTodo.execute(""Buy groceries"")",Chrome 133.0.6943.99,,,13-02-2025 17:49:10,13-02-2025 17:49:12,1.976s,PASSED
+VerifyTodo.countEqual(1),Chrome 133.0.6943.99,,,13-02-2025 17:49:12,13-02-2025 17:49:12,0.967s,PASSED
+"VerifyTodo.textEqual(0, ""Buy groceries"")",Chrome 133.0.6943.99,,,13-02-2025 17:49:12,13-02-2025 17:49:13,0.403s,PASSED
+,,,,,,,
+Test Cases/Reusable Test Case/RTC002 - Close App,Chrome 133.0.6943.99,,,13-02-2025 17:49:13,13-02-2025 17:49:13,0.252s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 133.0.6943.99,,,13-02-2025 17:49:13,13-02-2025 17:49:13,0.125s,PASSED

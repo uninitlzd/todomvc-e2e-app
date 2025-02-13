@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RTC011 - Set an Item to done</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>867e0339-5d9c-483c-b5c2-9d078bbb0f9f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ffa4e30-80cf-4ae9-bf4d-9b3acdc6c5e1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>4ffa4e30-80cf-4ae9-bf4d-9b3acdc6c5e1</id>
+      <masked>false</masked>
+      <name>sequence</name>
+   </variable>
+</TestCaseEntity>

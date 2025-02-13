@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4ECE3A00D14E1436A9ECC738B941D1BA",
+  "keywordClasses": [
+    {
+      "name": "com.todo.keywords.DeleteTodo",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

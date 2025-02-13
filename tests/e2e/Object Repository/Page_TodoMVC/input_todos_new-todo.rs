@@ -6,12 +6,12 @@
    <elementGuidId>3a8804c0-9c2d-46be-8bda-fbc6a4323583</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.new-todo</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.new-todo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5a117a82-b4a5-4234-8660-0e9db0818c68</webElementGuid>
+      <webElementGuid>0a5934d4-b2a4-463d-9630-ca0d93a165c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>11333c04-f7c2-445b-a937-aa0eed4c7108</webElementGuid>
+      <webElementGuid>b82ad5c3-4bef-4968-aafc-689838f80cb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>new-todo</value>
-      <webElementGuid>1ae02cfe-50df-4e33-97ed-2bf971edeac0</webElementGuid>
+      <webElementGuid>e2ea3176-d198-4172-8897-9dccea5704d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>2bc54a24-219c-463d-b7f5-18efd8e58b72</webElementGuid>
+      <webElementGuid>85b58334-24ad-4040-834f-f7ec771ac9f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>What needs to be done?</value>
-      <webElementGuid>87433717-c269-4728-a128-86ace89751f0</webElementGuid>
+      <webElementGuid>cbbee0f6-a726-4d36-a585-36f7fbb8ba37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;todoapp&quot;]/header[@class=&quot;header&quot;]/input[@class=&quot;new-todo&quot;]</value>
-      <webElementGuid>ddbf8e9c-a36c-4970-9c50-0e35352b1be7</webElementGuid>
+      <webElementGuid>50eadf48-929f-4bd6-9512-2169df1807ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@type='text']</value>
-      <webElementGuid>13d3d068-bf4a-44e6-9fdc-15c6520aa49b</webElementGuid>
+      <webElementGuid>db593a67-ef9b-4696-b9ad-70cb136565ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>3e8235de-7f63-4961-b98f-09196888d162</webElementGuid>
+      <webElementGuid>44c15dea-b49a-45ad-94ca-53f4842a96f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'What needs to be done?']</value>
-      <webElementGuid>3bfb9454-796b-4bc5-9dc1-87ef0a9f5f80</webElementGuid>
+      <webElementGuid>cd6f0032-16da-4a0a-8861-a1a929e3f7be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

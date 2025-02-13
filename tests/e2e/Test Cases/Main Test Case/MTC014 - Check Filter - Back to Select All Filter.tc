@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTC014 - Check Filter - Back to Select All Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e43bca2-7898-43c6-8144-299bdf2b0c66</testCaseGuid>
+</TestCaseEntity>

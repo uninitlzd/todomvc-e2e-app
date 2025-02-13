@@ -18,4 +18,11 @@
       <testCaseId>Test Cases/Reusable Test Case/RTC005 - Add Todo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1fc5f437-1d50-4d4c-ab27-4e6b60eb5f67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reusable Test Case/RTC002 - Close App</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
