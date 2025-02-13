@@ -13,10 +13,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v4.0
-      env:
-          API_KEY: ${{ secrets.KATALON_API_KEY }}
-          PROJECT_PATH: ${{ env.KATALON_PROJECT_PATH }}
       with:
           version: '9.6.0'
-          projectPath: '$PROJECT_PATH'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey= $API_KEY'
+          projectPath: '${{ env.KATALON_PROJECT_PATH }}'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey= ${{ secrets.KATALON_API_KEY }}Y'
