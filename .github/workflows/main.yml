@@ -16,4 +16,4 @@ jobs:
       with:
           version: '9.6.0'
           projectPath: '${{ env.KATALON_PROJECT_PATH }}'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey= ${{ secrets.KATALAN_API_KEY }} --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey= ${{ secrets.KATALON_API_KEY }} --config -webui.autoUpdateDrivers=true'
