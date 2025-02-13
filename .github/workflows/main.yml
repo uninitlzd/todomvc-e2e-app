@@ -15,5 +15,4 @@ jobs:
       uses: katalon-studio/katalon-studio-github-action@v4.0
       with:
           version: '9.6.0'
-          projectPath: '${{ env.KATALON_PROJECT_PATH }}'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -apiKey=2b51ffb6-954a-43f7-9ac4-cb09256720b8'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/TodoMVCTestSuite" -browserType="Chrome" -executionProfile="default" -testOpsReleaseId=848824 -testOpsProjectId=1940250 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -apiKey=2b51ffb6-954a-43f7-9ac4-cb09256720b8'
