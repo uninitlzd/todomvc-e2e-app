@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTTC006 - Clear all completed - n items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fd4f193-5088-4394-9c3e-215ee8c43c16</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6a3d911-d5ca-473b-a693-05c1976e9068</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>c6a3d911-d5ca-473b-a693-05c1976e9068</id>
+      <masked>false</masked>
+      <name>loopEnd</name>
+   </variable>
+</TestCaseEntity>

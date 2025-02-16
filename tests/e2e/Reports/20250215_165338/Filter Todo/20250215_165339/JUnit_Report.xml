@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Filter Todo" time="168.289" tests="6" failures="0" errors="5">
+   <testsuite name="Filter Todo" tests="6" failures="0" errors="5" time="168.289" skipped="0" timestamp="15-02-2025T16:53:44" hostname="edo - localhost" id="Test Suites/Filter Todo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_165338/Filter Todo/20250215_165339"/>
+         <property name="logFiles" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_165338/Filter Todo/20250215_165339/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edo - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.99"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="d17800a435d78113e49c7464d74e581c"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active" time="9.151" classname="Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active" status="ERROR">
+         <error type="ERROR" message="Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669&#xa;	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-02-2025T16:54:12 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active: Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:54:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:54:13 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:54:13 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:54:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2025T16:54:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:54:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:54:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:54:13 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:54:13 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:14 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:15 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:16 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:17 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:18 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:54:18 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:54:18 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:54:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC013 - Retoggle an Item"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:54:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC013 - Retoggle an Item: Test Cases/Reusable Test Case/RTC013 - Retoggle an Item
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:20 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:54:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:20 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:54:21 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC014 - Set Active Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC014 - Set Active Filter' successfully
+
+15-02-2025T16:54:21 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC014 - Set Active Filter: Test Cases/Reusable Test Case/RTC014 - Set Active Filter
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_TodoMVC/filter--active")): Object: 'Object Repository/Page_TodoMVC/filter--active' is clicked on
+
+15-02-2025T16:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/filter--active' is clicked on
+
+15-02-2025T16:54:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_TodoMVC/filter--active"), "class", "router-link-active router-link-exact-active selected", 0): Object 'Object Repository/Page_TodoMVC/filter--active' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:54:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TodoMVC/filter--active' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:54:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC014 - Set Active Filter' successfully
+
+15-02-2025T16:54:22 - [TEST_STEP][ERROR] - VerifyTodo.countEqual(4): Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:54:22 - [MESSAGE][ERROR] - Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-02-2025T16:54:12 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active: Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed" time="9.036" classname="Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed" status="ERROR">
+         <error type="ERROR" message="Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612502127&#xa;	at FTTC002 - Check Filter Completed.run(FTTC002 - Check Filter Completed:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-02-2025T16:54:49 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed: Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612502127
+	at FTTC002 - Check Filter Completed.run(FTTC002 - Check Filter Completed:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:54:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:54:49 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:54:49 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:54:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2025T16:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:54:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:54:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:54:50 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:54:50 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:51 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:52 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:53 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:54 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:55 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:54:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:54:55 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:54:55 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:54:55 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:54:55 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:54:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:54:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:54:55 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:54:55 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC013 - Retoggle an Item"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:54:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC013 - Retoggle an Item: Test Cases/Reusable Test Case/RTC013 - Retoggle an Item
+
+15-02-2025T16:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:54:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:57 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:54:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:54:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:54:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:54:57 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:54:57 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:54:57 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:54:58 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:54:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC015 - Set Completed Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC015 - Set Completed Filter' successfully
+
+15-02-2025T16:54:58 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC015 - Set Completed Filter: Test Cases/Reusable Test Case/RTC015 - Set Completed Filter
+
+15-02-2025T16:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_TodoMVC/filter--completed")): Object: 'Object Repository/Page_TodoMVC/filter--completed' is clicked on
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/filter--completed' is clicked on
+
+15-02-2025T16:54:58 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_TodoMVC/filter--completed"), "class", "router-link-active router-link-exact-active selected", 0): Object 'Object Repository/Page_TodoMVC/filter--completed' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:54:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TodoMVC/filter--completed' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:54:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC015 - Set Completed Filter' successfully
+
+15-02-2025T16:54:58 - [TEST_STEP][ERROR] - VerifyTodo.countEqual(1): Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612502127
+	at FTTC002 - Check Filter Completed.run(FTTC002 - Check Filter Completed:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:54:58 - [MESSAGE][ERROR] - Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612502127
+	at FTTC002 - Check Filter Completed.run(FTTC002 - Check Filter Completed:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-02-2025T16:54:49 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed: Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612502127
+	at FTTC002 - Check Filter Completed.run(FTTC002 - Check Filter Completed:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes" time="0.01" classname="Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:54:58 - [TEST_CASE][PASSED] - Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes: Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes
+
+15-02-2025T16:54:58 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter" time="9.084" classname="Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter" status="ERROR">
+         <error type="ERROR" message="Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612533571&#xa;	at FTTC004 - Check Filter Back to select all filter.run(FTTC004 - Check Filter Back to select all filter:31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-02-2025T16:55:26 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter: Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612533571
+	at FTTC004 - Check Filter Back to select all filter.run(FTTC004 - Check Filter Back to select all filter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:55:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:55:26 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:55:26 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:55:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2025T16:55:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:55:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:55:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:55:27 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:55:27 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:27 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:28 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:29 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:30 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:31 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:55:31 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:55:31 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:55:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:55:32 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:55:32 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:55:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:55:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC013 - Retoggle an Item"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:55:32 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC013 - Retoggle an Item: Test Cases/Reusable Test Case/RTC013 - Retoggle an Item
+
+15-02-2025T16:55:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:32 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:33 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:55:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:33 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:55:34 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC015 - Set Completed Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC015 - Set Completed Filter' successfully
+
+15-02-2025T16:55:34 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC015 - Set Completed Filter: Test Cases/Reusable Test Case/RTC015 - Set Completed Filter
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_TodoMVC/filter--completed")): Object: 'Object Repository/Page_TodoMVC/filter--completed' is clicked on
+
+15-02-2025T16:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/filter--completed' is clicked on
+
+15-02-2025T16:55:34 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_TodoMVC/filter--completed"), "class", "router-link-active router-link-exact-active selected", 0): Object 'Object Repository/Page_TodoMVC/filter--completed' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:55:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_TodoMVC/filter--completed' has attribute 'class' with value 'router-link-active router-link-exact-active selected'
+
+15-02-2025T16:55:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC015 - Set Completed Filter' successfully
+
+15-02-2025T16:55:35 - [TEST_STEP][ERROR] - VerifyTodo.countEqual(1): Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612533571
+	at FTTC004 - Check Filter Back to select all filter.run(FTTC004 - Check Filter Back to select all filter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:55:35 - [MESSAGE][ERROR] - Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612533571
+	at FTTC004 - Check Filter Back to select all filter.run(FTTC004 - Check Filter Back to select all filter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-02-2025T16:55:26 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter: Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612533571
+	at FTTC004 - Check Filter Back to select all filter.run(FTTC004 - Check Filter Back to select all filter:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item" time="7.664" classname="Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item" status="ERROR">
+         <error type="ERROR" message="Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612553054&#xa;	at FTTC005 - Clear all completed - 1 item.run(FTTC005 - Clear all completed - 1 item:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-02-2025T16:55:58 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item: Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612553054
+	at FTTC005 - Clear all completed - 1 item.run(FTTC005 - Clear all completed - 1 item:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:55:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:55:58 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:55:58 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:55:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2025T16:55:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:55:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:55:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:55:59 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:55:59 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:55:59 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:00 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:01 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:02 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:03 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:56:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:56:04 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:56:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:56:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:56:04 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:56:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:56:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:56:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:56:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:56:05 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:56:05 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:56:05 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:56:05 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_TodoMVC/filter--btn_clear-completed")): Object: 'Object Repository/Page_TodoMVC/filter--btn_clear-completed' is clicked on
+
+15-02-2025T16:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/filter--btn_clear-completed' is clicked on
+
+15-02-2025T16:56:05 - [TEST_STEP][ERROR] - VerifyTodo.countEqual(4): Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612553054
+	at FTTC005 - Clear all completed - 1 item.run(FTTC005 - Clear all completed - 1 item:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:56:05 - [MESSAGE][ERROR] - Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612553054
+	at FTTC005 - Clear all completed - 1 item.run(FTTC005 - Clear all completed - 1 item:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-02-2025T16:55:58 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item: Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612553054
+	at FTTC005 - Clear all completed - 1 item.run(FTTC005 - Clear all completed - 1 item:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items" time="6.656" classname="Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items" status="ERROR">
+         <error type="ERROR" message="Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: loopEnd for class: Script1739612586807&#xa;	at FTTC006 - Clear all completed - n items.run(FTTC006 - Clear all completed - n items:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[15-02-2025T16:56:25 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items: Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: loopEnd for class: Script1739612586807
+	at FTTC006 - Clear all completed - n items.run(FTTC006 - Clear all completed - n items:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:56:25 - [TEST_STEP][PASSED] - todos = ["PHP", "Javascript", "CPP", "CSS", "Java"]: null
+
+15-02-2025T16:56:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":todos], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:56:25 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:56:25 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:56:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-02-2025T16:56:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:56:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:56:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:56:26 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:56:26 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:27 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:28 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:29 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:30 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:31 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:56:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:56:31 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:56:31 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:56:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:56:32 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:56:32 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:56:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:56:32 - [TEST_STEP][ERROR] - for (def index : (1..loopEnd)): Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: loopEnd for class: Script1739612586807
+	at FTTC006 - Clear all completed - n items.run(FTTC006 - Clear all completed - n items:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+15-02-2025T16:56:32 - [MESSAGE][ERROR] - Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: loopEnd for class: Script1739612586807
+	at FTTC006 - Clear all completed - n items.run(FTTC006 - Clear all completed - n items:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[15-02-2025T16:56:25 - [TEST_CASE][ERROR] - Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items: Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: loopEnd for class: Script1739612586807
+	at FTTC006 - Clear all completed - n items.run(FTTC006 - Clear all completed - n items:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2025T16:53:44 - [TEST_SUITE][ERROR] - Filter Todo: Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[15-02-2025T16:53:44 - [TEST_SUITE][ERROR] - Filter Todo: Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: VerifyTodo for class: Script1739612488669
+	at FTTC001 - Check Filter Active.run(FTTC001 - Check Filter Active:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1739613219509.run(TempTestSuite1739613219509.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

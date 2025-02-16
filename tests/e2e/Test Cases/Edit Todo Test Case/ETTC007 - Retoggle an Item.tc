@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETTC007 - Retoggle an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a762c3da-1a60-4b84-a82d-a49546d8a467</testCaseGuid>
+</TestCaseEntity>

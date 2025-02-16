@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETTC001 - Edit an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a55b472-c8a6-4788-b2e7-54aa8d334c6e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTTC004 - Check Filter Back to select all filter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c8348dfb-63cd-443e-88b6-7218d95c9803</testCaseGuid>
+</TestCaseEntity>

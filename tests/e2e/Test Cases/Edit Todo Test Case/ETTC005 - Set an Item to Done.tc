@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETTC005 - Set an Item to Done</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffee5414-273f-4e08-946f-4408c5ab1cb3</testCaseGuid>
+</TestCaseEntity>

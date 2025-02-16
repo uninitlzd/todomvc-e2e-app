@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTTC005 - Clear all completed - 1 item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec3432cc-03ad-4424-84b1-32d6c1828131</testCaseGuid>
+</TestCaseEntity>

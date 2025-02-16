@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETTC003 - Delete an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2213a4ed-70d9-469c-ae34-da30cab53b98</testCaseGuid>
+</TestCaseEntity>

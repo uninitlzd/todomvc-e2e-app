@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ATTC002 - Add Single Item</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ead51d6-06ef-4eab-a79d-84a9bfe61960</testCaseGuid>
+</TestCaseEntity>

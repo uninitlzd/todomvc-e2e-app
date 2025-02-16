@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Todo" time="63.922" tests="8" failures="0" errors="0">
+   <testsuite name="Edit Todo" tests="8" failures="0" errors="0" time="63.922" skipped="0" timestamp="15-02-2025T16:50:26" hostname="edo - localhost" id="Test Suites/Edit Todo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_165020/Edit Todo/20250215_165021"/>
+         <property name="logFiles" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_165020/Edit Todo/20250215_165021/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edo - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.99"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="1662e43aa0181e36fe90984ebf91f082"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC001 - Edit an Item" time="4.857" classname="Test Cases/Edit Todo Test Case/ETTC001 - Edit an Item" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:50:26 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC001 - Edit an Item: Test Cases/Edit Todo Test Case/ETTC001 - Edit an Item
+
+15-02-2025T16:50:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC005 - Add Todo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC005 - Add Todo' successfully
+
+15-02-2025T16:50:26 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC005 - Add Todo: Test Cases/Reusable Test Case/RTC005 - Add Todo
+
+15-02-2025T16:50:26 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+15-02-2025T16:50:26 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:50:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:50:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:50:28 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:28 - [TEST_STEP][PASSED] - AddTodo.execute("Buy groceries"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:28 - [MESSAGE][PASSED] - Text 'Buy groceries' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:29 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(1): Actual object '1' and expected object '1' are equal
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+15-02-2025T16:50:29 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(0, "Buy groceries"): Actual object 'Buy groceries' and expected object 'Buy groceries' are equal
+
+15-02-2025T16:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Actual object 'Buy groceries' and expected object 'Buy groceries' are equal
+
+15-02-2025T16:50:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC005 - Add Todo' successfully
+
+15-02-2025T16:50:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC007 - Edit Certain Index"), ["index":0], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:29 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC007 - Edit Certain Index: Test Cases/Reusable Test Case/RTC007 - Edit Certain Index
+
+15-02-2025T16:50:29 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+15-02-2025T16:50:29 - [TEST_STEP][PASSED] - prevLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:30 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:30 - [TEST_STEP][PASSED] - todo.editTodo(index, prevLabel + " Edited"): Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:30 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:30 - [TEST_STEP][PASSED] - newLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:31 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:31 - [TEST_STEP][PASSED] - verifyNotEqual(prevLabel, newLabel): Actual object 'Buy groceries' and expected object 'Buy groceries Edited' are not equal
+
+15-02-2025T16:50:31 - [MESSAGE][PASSED] - Actual object 'Buy groceries' and expected object 'Buy groceries Edited' are not equal
+
+15-02-2025T16:50:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:50:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC002 - Edit Multiple Item" time="9.031" classname="Test Cases/Edit Todo Test Case/ETTC002 - Edit Multiple Item" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:50:31 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC002 - Edit Multiple Item: Test Cases/Edit Todo Test Case/ETTC002 - Edit Multiple Item
+
+15-02-2025T16:50:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:31 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:50:31 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:50:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:50:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:50:32 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:32 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:32 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:33 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:34 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:35 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:36 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:37 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:37 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC007 - Edit Certain Index"), ["index":0], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:37 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC007 - Edit Certain Index: Test Cases/Reusable Test Case/RTC007 - Edit Certain Index
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+15-02-2025T16:50:37 - [TEST_STEP][PASSED] - prevLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:38 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:38 - [TEST_STEP][PASSED] - todo.editTodo(index, prevLabel + " Edited"): Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:38 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:38 - [TEST_STEP][PASSED] - newLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:50:38 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - verifyNotEqual(prevLabel, newLabel): Actual object 'PHP' and expected object 'PHP Edited' are not equal
+
+15-02-2025T16:50:39 - [MESSAGE][PASSED] - Actual object 'PHP' and expected object 'PHP Edited' are not equal
+
+15-02-2025T16:50:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC007 - Edit Certain Index"), ["index":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:39 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC007 - Edit Certain Index: Test Cases/Reusable Test Case/RTC007 - Edit Certain Index
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - prevLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:39 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - todo.editTodo(index, prevLabel + " Edited"): Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:39 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:39 - [TEST_STEP][PASSED] - newLabel = todo.getText(index): Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:40 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:40 - [TEST_STEP][PASSED] - verifyNotEqual(prevLabel, newLabel): Actual object 'Javascript' and expected object 'Javascript Edited' are not equal
+
+15-02-2025T16:50:40 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript Edited' are not equal
+
+15-02-2025T16:50:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC007 - Edit Certain Index' successfully
+
+15-02-2025T16:50:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:50:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC003 - Delete an Item" time="8.05" classname="Test Cases/Edit Todo Test Case/ETTC003 - Delete an Item" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:50:40 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC003 - Delete an Item: Test Cases/Edit Todo Test Case/ETTC003 - Delete an Item
+
+15-02-2025T16:50:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:40 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:50:40 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:50:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:50:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:50:41 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:41 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:41 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:42 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:43 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:44 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:45 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:46 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:50:46 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:46 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:50:46 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC010 - Delete an Item"), ["index":0, "todosCountAfterDelete":4], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:47 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC010 - Delete an Item: Test Cases/Reusable Test Case/RTC010 - Delete an Item
+
+15-02-2025T16:50:47 - [TEST_STEP][PASSED] - DeleteTodo.execute(index): Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item_parameterized' is hovered
+
+15-02-2025T16:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":4], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:47 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:50:47 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:50:48 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:48 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:50:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:50:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC004 - Delete some items" time="9.622" classname="Test Cases/Edit Todo Test Case/ETTC004 - Delete some items" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:50:48 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC004 - Delete some items: Test Cases/Edit Todo Test Case/ETTC004 - Delete some items
+
+15-02-2025T16:50:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:48 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:50:48 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:50:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:50:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:50:49 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:49 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:49 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:50 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:51 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:52 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:53 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:54 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:54 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:50:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC010 - Delete an Item"), ["index":0, "todosCountAfterDelete":4], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:54 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC010 - Delete an Item: Test Cases/Reusable Test Case/RTC010 - Delete an Item
+
+15-02-2025T16:50:54 - [TEST_STEP][PASSED] - DeleteTodo.execute(index): Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item_parameterized' is hovered
+
+15-02-2025T16:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC010 - Delete an Item"), ["index":0, "todosCountAfterDelete":4], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:55 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC010 - Delete an Item: Test Cases/Reusable Test Case/RTC010 - Delete an Item
+
+15-02-2025T16:50:55 - [TEST_STEP][PASSED] - DeleteTodo.execute(index): Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item_parameterized' is hovered
+
+15-02-2025T16:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC010 - Delete an Item"), ["index":0, "todosCountAfterDelete":4], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:56 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC010 - Delete an Item: Test Cases/Reusable Test Case/RTC010 - Delete an Item
+
+15-02-2025T16:50:56 - [TEST_STEP][PASSED] - DeleteTodo.execute(index): Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item_parameterized' is hovered
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/button_destroy' is clicked on
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC010 - Delete an Item' successfully
+
+15-02-2025T16:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:57 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:50:57 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '2' and expected object '2' are equal
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:50:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:50:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC005 - Set an Item to Done" time="7.572" classname="Test Cases/Edit Todo Test Case/ETTC005 - Set an Item to Done" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:50:57 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC005 - Set an Item to Done: Test Cases/Edit Todo Test Case/ETTC005 - Set an Item to Done
+
+15-02-2025T16:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:50:58 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:50:58 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:50:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:50:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:50:58 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:50:58 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:59 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:50:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:00 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:01 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:02 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:03 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:03 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:51:03 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:51:04 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:51:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:51:05 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:51:05 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:51:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:51:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC006 - Set some item to done" time="8.01" classname="Test Cases/Edit Todo Test Case/ETTC006 - Set some item to done" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:51:05 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC006 - Set some item to done: Test Cases/Edit Todo Test Case/ETTC006 - Set some item to done
+
+15-02-2025T16:51:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:05 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:51:05 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:51:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:51:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:51:06 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:06 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:07 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:08 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:09 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:10 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:10 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:11 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:51:11 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:11 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:51:11 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:11 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:51:11 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:12 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:12 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"3"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:12 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:51:12 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '3'
+
+15-02-2025T16:51:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '3'
+
+15-02-2025T16:51:13 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '3' and expected object '3' are equal
+
+15-02-2025T16:51:13 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+15-02-2025T16:51:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:51:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC007 - Retoggle an Item" time="8.113" classname="Test Cases/Edit Todo Test Case/ETTC007 - Retoggle an Item" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:51:13 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC007 - Retoggle an Item: Test Cases/Edit Todo Test Case/ETTC007 - Retoggle an Item
+
+15-02-2025T16:51:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:13 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:51:13 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:51:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:51:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:51:14 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:14 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:15 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:16 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:17 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:18 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:19 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:51:19 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:51:19 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:19 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:51:19 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC013 - Retoggle an Item"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:51:20 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC013 - Retoggle an Item: Test Cases/Reusable Test Case/RTC013 - Retoggle an Item
+
+15-02-2025T16:51:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:20 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:20 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"5"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:21 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '5'
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '5'
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:51:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle" time="8.586" classname="Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:51:21 - [TEST_CASE][PASSED] - Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle: Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC006 - Add Multiple Todo"), ["todos":["PHP", "Javascript", "CPP", "CSS", "Java"]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:21 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo: Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo
+
+15-02-2025T16:51:21 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:51:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:51:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:51:22 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:51:22 - [TEST_STEP][PASSED] - AddTodoMultiple.execute(todos): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:23 - [MESSAGE][PASSED] - Text 'PHP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:24 - [MESSAGE][PASSED] - Text 'Javascript' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:25 - [MESSAGE][PASSED] - Text 'CPP' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:26 - [MESSAGE][PASSED] - Text 'CSS' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:27 - [MESSAGE][PASSED] - Text 'Java' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:51:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC009 - Verify todos count"), ["todosCount":collect().size()], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:27 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC009 - Verify todos count: Test Cases/Reusable Test Case/RTC009 - Verify todos count
+
+15-02-2025T16:51:27 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(todosCount): Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:27 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:51:27 - [MESSAGE][PASSED] - Actual object '5' and expected object '5' are equal
+
+15-02-2025T16:51:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC009 - Verify todos count' successfully
+
+15-02-2025T16:51:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC008 - Verify text at certain index"), ["index":1, "expectedValue":todos[1]], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:27 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC008 - Verify text at certain index: Test Cases/Reusable Test Case/RTC008 - Verify text at certain index
+
+15-02-2025T16:51:27 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(index, expectedValue): Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Actual object 'Javascript' and expected object 'Javascript' are equal
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC008 - Verify text at certain index' successfully
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC006 - Add Multiple Todo' successfully
+
+15-02-2025T16:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC013 - Retoggle an Item"), ["sequence":1], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:51:28 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC013 - Retoggle an Item: Test Cases/Reusable Test Case/RTC013 - Retoggle an Item
+
+15-02-2025T16:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:28 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":sequence], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:28 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC013 - Retoggle an Item' successfully
+
+15-02-2025T16:51:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC011 - Set an Item to done"), ["sequence":2], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:29 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC011 - Set an Item to done: Test Cases/Reusable Test Case/RTC011 - Set an Item to done
+
+15-02-2025T16:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TodoMVC/li_todo_item--toggle", ["sequence":sequence])): Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TodoMVC/li_todo_item--toggle' is clicked on
+
+15-02-2025T16:51:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC011 - Set an Item to done' successfully
+
+15-02-2025T16:51:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Reusable Test Case/RTC012 - Check Items Left Text Count"), ["expectedCount":"4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:29 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count: Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count
+
+15-02-2025T16:51:29 - [TEST_STEP][PASSED] - txtItemsLeft = findTestObject("Object Repository/Page_TodoMVC/footer--txt_items-left"): null
+
+15-02-2025T16:51:29 - [TEST_STEP][PASSED] - txtItemsLeftText = getText(txtItemsLeft): Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:51:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_TodoMVC/footer--txt_items-left' is: '4'
+
+15-02-2025T16:51:30 - [TEST_STEP][PASSED] - verifyEqual(txtItemsLeftText, expectedCount): Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:51:30 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+15-02-2025T16:51:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Reusable Test Case/RTC012 - Check Items Left Text Count' successfully
+
+15-02-2025T16:51:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-02-2025T16:51:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2025T16:50:26 - [TEST_SUITE][PASSED] - Edit Todo: Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

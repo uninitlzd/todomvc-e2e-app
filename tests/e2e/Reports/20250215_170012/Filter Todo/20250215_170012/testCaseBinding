@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active","testCaseId":"Test Cases/Filter Todo Test Case/FTTC001 - Check Filter Active","iterationVariableName":""}
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed","testCaseId":"Test Cases/Filter Todo Test Case/FTTC002 - Check Filter Completed","iterationVariableName":""}
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes","testCaseId":"Test Cases/Filter Todo Test Case/FTTC003 - Check FIlter Multiple Changes","iterationVariableName":""}
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter","testCaseId":"Test Cases/Filter Todo Test Case/FTTC004 - Check Filter Back to select all filter","iterationVariableName":""}
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item","testCaseId":"Test Cases/Filter Todo Test Case/FTTC005 - Clear all completed - 1 item","iterationVariableName":""}
+{"testCaseName":"Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items","testCaseId":"Test Cases/Filter Todo Test Case/FTTC006 - Clear all completed - n items","iterationVariableName":""}

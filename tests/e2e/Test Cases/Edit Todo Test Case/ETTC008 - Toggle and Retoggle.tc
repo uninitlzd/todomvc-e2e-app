@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETTC008 - Toggle and Retoggle</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0223f666-b17b-4008-b1a6-24e0874fdc1d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTTC001 - Check Filter Active</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>494d161a-8fcf-4358-b25a-7f39b59f28a2</testCaseGuid>
+</TestCaseEntity>

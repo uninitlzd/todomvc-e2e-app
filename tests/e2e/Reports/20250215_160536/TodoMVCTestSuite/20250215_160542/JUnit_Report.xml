@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TodoMVCTestSuite" time="15.605" tests="2" failures="0" errors="0">
+   <testsuite name="TodoMVCTestSuite" tests="2" failures="0" errors="0" time="15.605" skipped="0" timestamp="15-02-2025T16:05:49" hostname="edo - localhost" id="Test Suites/TodoMVCTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_160536/TodoMVCTestSuite/20250215_160542"/>
+         <property name="logFiles" value="/Users/edo/Tinkering/e2e-todomvc/tests/e2e/Reports/20250215_160536/TodoMVCTestSuite/20250215_160542/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edo - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.99"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="c8617691eff582ccb2dfdc27e3a7758a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Reusable Test Case/RTC005 - Add Todo" time="15.037" classname="Test Cases/Reusable Test Case/RTC005 - Add Todo" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:05:49 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC005 - Add Todo: Test Cases/Reusable Test Case/RTC005 - Add Todo
+
+15-02-2025T16:05:49 - [TEST_STEP][PASSED] - todo = new com.todo.keywords.TodoKeywords(): null
+
+15-02-2025T16:05:50 - [TEST_STEP][PASSED] - InitializeTodoApp.execute(): Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:05:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-02-2025T16:05:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-02-2025T16:05:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-02-2025T16:06:00 - [MESSAGE][PASSED] - Navigate to 'https://todomvc-e2e-app.vercel.app/#/' successfully
+
+15-02-2025T16:06:00 - [TEST_STEP][PASSED] - AddTodo.execute("Buy groceries"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:06:02 - [MESSAGE][PASSED] - Text 'Buy groceries' is set on object 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:06:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_TodoMVC/input_todos_new-todo'
+
+15-02-2025T16:06:03 - [TEST_STEP][PASSED] - VerifyTodo.countEqual(1): Actual object '1' and expected object '1' are equal
+
+15-02-2025T16:06:03 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/li_todo_item
+
+15-02-2025T16:06:03 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+15-02-2025T16:06:03 - [TEST_STEP][PASSED] - VerifyTodo.textEqual(0, "Buy groceries"): Actual object 'Buy groceries' and expected object 'Buy groceries' are equal
+
+15-02-2025T16:06:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-02-2025T16:06:04 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_TodoMVC/todo_item--label
+
+15-02-2025T16:06:04 - [MESSAGE][PASSED] - Actual object 'Buy groceries' and expected object 'Buy groceries' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reusable Test Case/RTC002 - Close App" time="0.254" classname="Test Cases/Reusable Test Case/RTC002 - Close App" status="PASSED">
+         <system-out><![CDATA[15-02-2025T16:06:04 - [TEST_CASE][PASSED] - Test Cases/Reusable Test Case/RTC002 - Close App: Test Cases/Reusable Test Case/RTC002 - Close App
+
+15-02-2025T16:06:04 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+15-02-2025T16:06:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-02-2025T16:05:49 - [TEST_SUITE][PASSED] - TodoMVCTestSuite: Test Cases/Reusable Test Case/RTC002 - Close App]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

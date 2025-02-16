@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FTTC003 - Check FIlter Multiple Changes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83835c0d-3e34-4004-8d75-7aa9e5408fea</testCaseGuid>
+</TestCaseEntity>

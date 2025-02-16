@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Todo,Chrome 133.0.6943.99,,,15-02-2025 16:50:26,15-02-2025 16:51:30,1m - 3.922s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC001 - Edit an Item,Chrome 133.0.6943.99,,,15-02-2025 16:50:26,15-02-2025 16:50:31,4.857s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC005 - Add Todo""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:26,15-02-2025 16:50:29,3.447s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC007 - Edit Certain Index""), [""index"":0], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:29,15-02-2025 16:50:31,1.180s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:50:31,15-02-2025 16:50:31,0.133s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC002 - Edit Multiple Item,Chrome 133.0.6943.99,,,15-02-2025 16:50:31,15-02-2025 16:50:40,9.031s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:31,15-02-2025 16:50:37,6.621s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC007 - Edit Certain Index""), [""index"":0], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:37,15-02-2025 16:50:39,1.141s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC007 - Edit Certain Index""), [""index"":1], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:39,15-02-2025 16:50:40,1.157s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:50:40,15-02-2025 16:50:40,0.089s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC003 - Delete an Item,Chrome 133.0.6943.99,,,15-02-2025 16:50:40,15-02-2025 16:50:48,8.050s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:40,15-02-2025 16:50:46,6.685s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC010 - Delete an Item""), [""index"":0, ""todosCountAfterDelete"":4], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:46,15-02-2025 16:50:47,0.744s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC009 - Verify todos count""), [""todosCount"":4], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:47,15-02-2025 16:50:48,0.506s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:50:48,15-02-2025 16:50:48,0.087s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC004 - Delete some items,Chrome 133.0.6943.99,,,15-02-2025 16:50:48,15-02-2025 16:50:57,9.622s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:48,15-02-2025 16:50:54,6.527s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC010 - Delete an Item""), [""index"":0, ""todosCountAfterDelete"":4], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:54,15-02-2025 16:50:55,0.690s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC010 - Delete an Item""), [""index"":0, ""todosCountAfterDelete"":4], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:55,15-02-2025 16:50:56,0.888s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC010 - Delete an Item""), [""index"":0, ""todosCountAfterDelete"":4], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:56,15-02-2025 16:50:57,0.906s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC009 - Verify todos count""), [""todosCount"":2], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:57,15-02-2025 16:50:57,0.502s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:50:57,15-02-2025 16:50:57,0.091s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC005 - Set an Item to Done,Chrome 133.0.6943.99,,,15-02-2025 16:50:57,15-02-2025 16:51:05,7.572s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:50:57,15-02-2025 16:51:04,6.587s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC011 - Set an Item to done""), [""sequence"":1], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:04,15-02-2025 16:51:04,0.343s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC012 - Check Items Left Text Count""), [""expectedCount"":""4""], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:04,15-02-2025 16:51:05,0.530s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:51:05,15-02-2025 16:51:05,0.092s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC006 - Set some item to done,Chrome 133.0.6943.99,,,15-02-2025 16:51:05,15-02-2025 16:51:13,8.010s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:05,15-02-2025 16:51:12,6.528s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC011 - Set an Item to done""), [""sequence"":1], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:12,15-02-2025 16:51:12,0.323s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC011 - Set an Item to done""), [""sequence"":2], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:12,15-02-2025 16:51:12,0.533s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC012 - Check Items Left Text Count""), [""expectedCount"":""3""], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:12,15-02-2025 16:51:13,0.515s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:51:13,15-02-2025 16:51:13,0.089s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC007 - Retoggle an Item,Chrome 133.0.6943.99,,,15-02-2025 16:51:13,15-02-2025 16:51:21,8.113s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:13,15-02-2025 16:51:20,6.579s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC013 - Retoggle an Item""), [""sequence"":1], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:20,15-02-2025 16:51:21,0.916s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC012 - Check Items Left Text Count""), [""expectedCount"":""5""], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:21,15-02-2025 16:51:21,0.508s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:51:21,15-02-2025 16:51:21,0.091s,PASSED
+,,,,,,,
+Test Cases/Edit Todo Test Case/ETTC008 - Toggle and Retoggle,Chrome 133.0.6943.99,,,15-02-2025 16:51:21,15-02-2025 16:51:30,8.586s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC006 - Add Multiple Todo""), [""todos"":[""PHP"", ""Javascript"", ""CPP"", ""CSS"", ""Java""]], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:21,15-02-2025 16:51:28,6.523s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC013 - Retoggle an Item""), [""sequence"":1], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:28,15-02-2025 16:51:29,0.909s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC011 - Set an Item to done""), [""sequence"":2], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:29,15-02-2025 16:51:29,0.541s,PASSED
+"callTestCase(findTestCase(""Reusable Test Case/RTC012 - Check Items Left Text Count""), [""expectedCount"":""4""], STOP_ON_FAILURE)",Chrome 133.0.6943.99,,,15-02-2025 16:51:29,15-02-2025 16:51:30,0.508s,PASSED
+closeBrowser(),Chrome 133.0.6943.99,,,15-02-2025 16:51:30,15-02-2025 16:51:30,0.091s,PASSED
